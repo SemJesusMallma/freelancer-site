@@ -180,6 +180,10 @@ h3 {
   
 }
 
+/*.button:hover {
+  cursor: pointer;
+} */
+
 .navigation-main a {
     display: block;
     text-align: center;
@@ -314,8 +318,8 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .service
-  .navigation-main
+  .services,
+  .navigation-main,
   .form {
     scroll-snap-align: center;
     scroll-snap-stop: always;
