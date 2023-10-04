@@ -58,6 +58,7 @@ html {
 body {
     font-size: 16px;
     font-family: 'Krub' , sans-serif;
+    background-image: linear-gradient(to top, var(--gray-light) 0%, var(--white) 100%);
   }
    
   *,
