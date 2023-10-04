@@ -152,6 +152,7 @@ h3 {
     flex-direction: column;
 }
 
+/* @media (width >= 768px) { */
 @media (min-width: 768px) {   /* Cuando tenga 768px a más se ejecutaran estos estilos*/
   .navigation-main {
     flex-direction: row;      /* fila */
