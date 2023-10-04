@@ -53,6 +53,7 @@ rem: medida relativa al root (root es todo el html)
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
   }
    
 body {
@@ -310,4 +311,13 @@ h3 {
 
 .footer {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .service
+  .navigation-main
+  .form {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+  }
 }
