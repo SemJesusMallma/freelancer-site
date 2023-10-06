@@ -25,7 +25,7 @@ rem: medida relativa al root (root es todo el html)
 
   html {
     font-size: 62.5%;
-    box-sizing: border-box;   /*se comparte todo a manera de caja, los anchos, para que todo este igual, es parte del hack
+    box-sizing: border-box;   /*se comparte todo a manera de caja, los anchos y los altos, para que todo este igual, es parte del hack
   }
    
   body {
